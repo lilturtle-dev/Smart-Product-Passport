@@ -17,8 +17,6 @@ import skydiving from './assets/comics/skydiving.png';
 import updateDrivers from './assets/comics/drivers_updating_comic.png';
 import whiteLogo from './assets/SPP_logo_white.png';
 import { requestAirdrop } from './utils/airdrop';
-import { mintPassportWithIrys } from './utils/nftCreator';
-import { getOrCreateCollection } from './utils/collectionCreator';
 import FAQ from './components/FAQ';
 import Community from './components/Community';
 import ThreeDBoxSection from './components/ThreeDBoxSection';
@@ -57,7 +55,6 @@ import {
   ArrowTopRightOnSquareIcon,
   CreditCardIcon
 } from '@heroicons/react/24/outline';
-import { Metaplex } from '@metaplex-foundation/js';
 import CreateCollectionPage from './components/CreateCollectionPage';
 
 const Navigation = ({ walletAddress, role, connectWallet, disconnectWallet, addManufacturer }) => {

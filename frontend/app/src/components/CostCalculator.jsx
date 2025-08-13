@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { getNftCreationCost, getCollectionCreationCost } from '../utils/nftCreator';
 import { useTranslation } from 'react-i18next';
 
 const CostCalculator = () => {

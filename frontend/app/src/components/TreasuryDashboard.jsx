@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { getTreasuryInfo, withdrawFromTreasury } from '../utils/nftCreator';
 import { useWallet } from '@solana/wallet-adapter-react';
 
 const TreasuryDashboard = () => {

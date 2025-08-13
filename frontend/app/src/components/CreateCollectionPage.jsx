@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { createCollectionWithMetaplex } from '../utils/collectionCreator';
 import { useTranslation } from 'react-i18next';
 const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
