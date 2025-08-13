@@ -24,4 +24,4 @@ WORKDIR /app/backend
 RUN cargo build --release
 
 # Запускаємо бекенд
-CMD ["./spp-backend"] 
+CMD ["./target/release/spp-backend"]
